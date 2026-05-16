@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clipium — Descargar videos de TikTok, Instagram, YouTube y Pinterest en Telegram</title>
+<meta name="description" content="Bot de Telegram gratuito para descargar videos de TikTok, Instagram Reels, YouTube Shorts y Pinterest. Sin marca de agua, calidad original, 16 idiomas.">
+<meta property="og:title" content="Clipium — Descargar videos de TikTok, Instagram, YouTube y Pinterest en Telegram">
+<meta property="og:description" content="Bot de Telegram gratuito para descargar videos de TikTok, Instagram Reels, YouTube Shorts y Pinterest. Sin marca de agua, calidad original, 16 idiomas.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://idelar.github.io/downloader-video/es/">
+
+<link rel="alternate" hreflang="en" href="https://idelar.github.io/downloader-video/">
+<link rel="alternate" hreflang="ru" href="https://idelar.github.io/downloader-video/ru/">
+<link rel="alternate" hreflang="es" href="https://idelar.github.io/downloader-video/es/">
+<link rel="alternate" hreflang="pt" href="https://idelar.github.io/downloader-video/pt/">
+<link rel="alternate" hreflang="id" href="https://idelar.github.io/downloader-video/id/">
+<link rel="alternate" hreflang="tr" href="https://idelar.github.io/downloader-video/tr/">
+<link rel="alternate" hreflang="hi" href="https://idelar.github.io/downloader-video/hi/">
+<link rel="alternate" hreflang="de" href="https://idelar.github.io/downloader-video/de/">
+<link rel="alternate" hreflang="fr" href="https://idelar.github.io/downloader-video/fr/">
+<link rel="alternate" hreflang="ar" href="https://idelar.github.io/downloader-video/ar/">
+<link rel="alternate" hreflang="kk" href="https://idelar.github.io/downloader-video/kk/">
+<link rel="alternate" hreflang="uz" href="https://idelar.github.io/downloader-video/uz/">
+<link rel="alternate" hreflang="be" href="https://idelar.github.io/downloader-video/be/">
+<link rel="alternate" hreflang="fa" href="https://idelar.github.io/downloader-video/fa/">
+<link rel="alternate" hreflang="it" href="https://idelar.github.io/downloader-video/it/">
+<link rel="alternate" hreflang="pl" href="https://idelar.github.io/downloader-video/pl/">
+<link rel="alternate" hreflang="x-default" href="https://idelar.github.io/downloader-video/">
+
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #1a1a1a; background: #fafafa; }
+  h1 { color: #0088cc; font-size: 2.2em; margin-bottom: 8px; }
+  h2 { color: #0088cc; margin-top: 40px; border-bottom: 2px solid #e0e0e0; padding-bottom: 8px; }
+  .tagline { font-size: 1.15em; color: #555; margin-bottom: 30px; }
+  .cta { display: inline-block; background: #0088cc; color: white; padding: 16px 32px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.1em; margin: 20px 0; }
+  .cta:hover { background: #006699; }
+  .lang-switcher { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 30px; padding: 12px; background: white; border-radius: 10px; border: 1px solid #e0e0e0; font-size: 0.9em; }
+  .lang-link { color: #0088cc; text-decoration: none; padding: 4px 10px; border-radius: 4px; }
+  .lang-link:hover { background: #f0f8ff; }
+  .lang-link.active { background: #0088cc; color: white; }
+  .platforms { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 20px 0; }
+  .platform { background: white; padding: 16px; border-radius: 10px; text-align: center; border: 1px solid #e0e0e0; }
+  .faq-item { background: white; padding: 16px 20px; border-radius: 10px; margin-bottom: 12px; border: 1px solid #e0e0e0; }
+  .faq-item h3 { margin: 0 0 8px 0; color: #333; font-size: 1.05em; }
+  .faq-item p { margin: 0; color: #555; }
+  ul li, ol li { margin-bottom: 6px; }
+  footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #e0e0e0; color: #777; font-size: 0.9em; }
+  a { color: #0088cc; }
+</style>
+</head>
+<body>
+
+<div class="lang-switcher">
+    <a href="/downloader-video/" class="lang-link">🇬🇧 English</a>
+    <a href="/downloader-video/ru/" class="lang-link">🇷🇺 Русский</a>
+    <a href="/downloader-video/es/" class="lang-link active">🇪🇸 Español</a>
+    <a href="/downloader-video/pt/" class="lang-link">🇧🇷 Português</a>
+    <a href="/downloader-video/id/" class="lang-link">🇮🇩 Indonesia</a>
+    <a href="/downloader-video/tr/" class="lang-link">🇹🇷 Türkçe</a>
+    <a href="/downloader-video/hi/" class="lang-link">🇮🇳 हिन्दी</a>
+    <a href="/downloader-video/de/" class="lang-link">🇩🇪 Deutsch</a>
+    <a href="/downloader-video/fr/" class="lang-link">🇫🇷 Français</a>
+    <a href="/downloader-video/ar/" class="lang-link">🇸🇦 العربية</a>
+    <a href="/downloader-video/kk/" class="lang-link">🇰🇿 Қазақша</a>
+    <a href="/downloader-video/uz/" class="lang-link">🇺🇿 Oʻzbekcha</a>
+    <a href="/downloader-video/be/" class="lang-link">🇧🇾 Беларуская</a>
+    <a href="/downloader-video/fa/" class="lang-link">🇮🇷 فارسی</a>
+    <a href="/downloader-video/it/" class="lang-link">🇮🇹 Italiano</a>
+    <a href="/downloader-video/pl/" class="lang-link">🇵🇱 Polski</a>
+</div>
+
+<h1>Clipium</h1>
+<p class="tagline">Bot de Telegram gratuito para descargar videos de TikTok, Instagram, YouTube y Pinterest — sin marcas de agua, en calidad original.</p>
+
+<a href="https://t.me/clipiumbot?start=GitHub" class="cta">Abrir en Telegram →</a>
+
+<h2>Plataformas compatibles</h2>
+<p>Descarga videos de las principales redes sociales en segundos:</p>
+<div class="platforms">
+    <div class="platform"><strong>TikTok</strong><br>Sin marca de agua</div>
+    <div class="platform"><strong>Instagram</strong><br>Reels, publicaciones, historias</div>
+    <div class="platform"><strong>YouTube</strong><br>Shorts y videos</div>
+    <div class="platform"><strong>Pinterest</strong><br>Videos y pines</div>
+</div>
+
+<h2>Cómo descargar videos</h2>
+<ol>
+    <li>Abre <a href="https://t.me/clipiumbot?start=GitHub">Clipium</a> en Telegram</li>
+    <li>Copia el enlace de un video de TikTok, Instagram, YouTube o Pinterest</li>
+    <li>Pega el enlace en el chat</li>
+    <li>Recibe tu archivo de video en segundos — sin marca de agua, calidad completa</li>
+</ol>
+
+<h2>Características</h2>
+<ul>
+    <li><strong>Descargador de videos de TikTok</strong> — guarda TikToks sin marca de agua</li>
+    <li><strong>Descargador de Instagram Reels</strong> — descarga Reels, publicaciones e historias</li>
+    <li><strong>Descargador de YouTube Shorts</strong> — guarda Shorts y videos normales</li>
+    <li><strong>Descargador de Pinterest</strong> — cualquier video o pin de Pinterest</li>
+    <li><strong>Sin marca de agua</strong> en las plataformas compatibles</li>
+    <li><strong>Calidad original</strong> — HD cuando esté disponible</li>
+    <li><strong>100% gratis</strong> — sin suscripción ni anuncios</li>
+    <li><strong>Funciona en cualquier dispositivo</strong> — iPhone, Android, escritorio</li>
+</ul>
+
+<h2>Disponible en 16 idiomas</h2>
+<p>La interfaz del bot está completamente traducida a tu idioma.</p>
+
+<h2>Preguntas frecuentes</h2>
+  <div class="faq-item">
+    <h3>¿Cómo descargo videos de TikTok sin marca de agua?</h3>
+    <p>Abre Clipium en Telegram, pega el enlace del video de TikTok y el bot te devolverá el archivo sin marca de agua. No necesitas instalar ninguna app.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Puedo descargar Instagram Reels con este bot?</h3>
+    <p>Sí. El bot soporta Reels, publicaciones de video e historias de cuentas públicas. Solo envía el enlace.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Cómo guardo YouTube Shorts en mi teléfono?</h3>
+    <p>Copia la URL del Short de YouTube, envíala al bot en Telegram y obtendrás un archivo de video descargable.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Funciona con videos de Pinterest?</h3>
+    <p>Sí. Envía cualquier enlace de video o pin de Pinterest al bot y recibirás el archivo.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿El bot es gratis?</h3>
+    <p>Sí, Clipium es completamente gratuito.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Funciona en iPhone y Android?</h3>
+    <p>Sí. Como funciona dentro de Telegram, el bot está disponible en iPhone, Android, Windows, Mac y Linux.</p>
+  </div>
+
+<footer>
+<p>Clipium es una herramienta de terceros no oficial y no está afiliada a TikTok, Instagram, YouTube o Pinterest.</p>
+</footer>
+
+</body>
+</html>
